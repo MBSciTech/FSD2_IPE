@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Signup</title>
+</head>
+<body>
+  <h2>User Signup Form</h2>
+  <form action="/submit" method="POST">
+    Name: <input type="text" name="name" required><br><br>
+    Contact: <input type="text" name="contact" required><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Address: <textarea name="address" required></textarea><br><br>
+    Gender:
+    <input type="radio" name="gender" value="Male" required>Male
+    <input type="radio" name="gender" value="Female" required>Female
+    <input type="radio" name="gender" value="Others" required>Others<br><br>
+    DOB: <input type="date" name="dob" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
